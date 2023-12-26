@@ -34,3 +34,46 @@ for i in range(size):
 #However, if you change the end parameter to a space character (" "), then the print function will print a space after the output, instead of moving to the next line.
 
 
+
+#4)Multiplecation table
+    
+for i in  range(1,11):
+    for j in range(1,11):
+        #print(i * j,end="\t") 
+        print(i,"*",j,"=", i*j)   
+    print()    
+
+
+
+
+
+                  ##########################Nested while loop ################################
+
+# A nested while loop that prints a pattern of stars
+
+i = 1
+while i <= 5:
+
+    j = 1
+    while j <= i:
+        print("*",end=" ")
+        j+=1
+    print()
+    i+=1   
+
+
+
+
+                 ##########################Nested while loop ################################
+       
+
+rows = int(input("Enter the number of rows:"))
+
+for i in range(rows):
+    
+    j = 0
+    while j < i+1:
+        print("*",end=" ")
+        j+=1
+    print()    
+
